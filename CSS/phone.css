@@ -1,0 +1,15 @@
+img{
+    height: 280px;
+    width: 280px;
+}
+textarea{
+    outline: none;
+    height: 100px;
+    width: 300px;
+}
+.btn{
+    margin: auto ;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
