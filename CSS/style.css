@@ -23,7 +23,7 @@ body {
 h3{
     text-align: right;
 }
-.main-heading {
+h1 {
 	text-align: center;
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -31,7 +31,6 @@ h3{
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: hue 4s infinite linear;
 }
-
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
