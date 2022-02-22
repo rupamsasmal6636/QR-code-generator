@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: #c7f059;
+}
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.qrbox{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+}
+img{
+    height: 280px;
+    width: 280px;
+    padding: 1rem;
+    border: 1.5px solid #2a691e;
+}
+.imgg{
+    display: grid;
+    justify-content: center;
+}
+textarea{
+    outline: none;
+    height: 70px;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border: 2px solid #72f059;
+    border-radius: 0.5rem;
+    grid-column: 1/-1;
+}
+button{
+    font-size: 1rem;
+    border:  none;
+    outline: none;
+    background-color: rgb(255, 238, 0);
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 2rem;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    width: 170px;
+}
+#btnGenerate{
+    /* display: grid; */
+    justify-content: center;
+}
+button:hover {
+    background-color: #ffc400;
+}
