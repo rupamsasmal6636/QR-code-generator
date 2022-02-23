@@ -15,10 +15,10 @@ qrGenbtn.addEventListener('click', ()=>{
     qrtext.value="";
 });
 
-// qrDownbtn.addEventListener('click', ()=>{
-//     // alert('download start');
-//     let imgPath=qrcode.src;
-//     let fileName= "image.jpeg";
-
-//     saveAs(imgPath,fileName);
-// });
+qrDownbtn.addEventListener('click', ()=>{
+    let imgPath=qrcode.getAttribute('src');
+    let fileName= "image.jpeg";
+    
+    saveAs(imgPath,fileName);
+    console.log("successfully downloaded!");
+});
